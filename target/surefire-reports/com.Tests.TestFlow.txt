@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.Tests.TestFlow
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 8.19 s <<< FAILURE! - in com.Tests.TestFlow
+addNewStudentPOST(com.Tests.TestFlow)  Time elapsed: 5.818 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.info(com.aventstack.extentreports.markuputils.Markup)" because the return value of "java.lang.ThreadLocal.get()" is null
+	at com.Tests.TestFlow.addNewStudentPOST(TestFlow.java:38)
+
+oneStudentGET(com.Tests.TestFlow)  Time elapsed: 0.1 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.info(com.aventstack.extentreports.markuputils.Markup)" because the return value of "java.lang.ThreadLocal.get()" is null
+	at com.Tests.TestFlow.oneStudentGET(TestFlow.java:67)
+
+studentsListGET(com.Tests.TestFlow)  Time elapsed: 0.058 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.info(com.aventstack.extentreports.markuputils.Markup)" because the return value of "java.lang.ThreadLocal.get()" is null
+	at com.Tests.TestFlow.studentsListGET(TestFlow.java:79)
+
+updateStudentPUT(com.Tests.TestFlow)  Time elapsed: 0.085 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "com.aventstack.extentreports.ExtentTest.info(com.aventstack.extentreports.markuputils.Markup)" because the return value of "java.lang.ThreadLocal.get()" is null
+	at com.Tests.TestFlow.updateStudentPUT(TestFlow.java:93)
+
