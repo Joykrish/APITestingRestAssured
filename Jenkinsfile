@@ -8,6 +8,12 @@ pipeline {
 				bat 'mvn test'
             }
         }
+        stage('Achrive Artifacts') {
+            steps {
+                echo 'to execute the framework'
+				archiveArtifacts artifacts: 'reports/*', followSymlinks: false
+            }
+        }
          stage('Report Generation') {
             steps {
                 echo 'to execute the framework'
