@@ -33,7 +33,7 @@ public class SetUp implements ITestListener {
 
 	public void onStart(ITestContext context) {
 		String fileName = ExtentReportManager.getReportNamewithTimeStamp();
-		String fullReportPath = System.getProperty("user.dir") + "\\reports\\" + fileName;
+		String fullReportPath = System.getProperty("user.dir") + "\\reports\\" + "TestReport";
 		extentReport = ExtentReportManager.createInstance(fullReportPath, "API Test Report", "Test Execution Summary");
 
 	}
